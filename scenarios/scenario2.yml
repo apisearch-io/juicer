@@ -1,0 +1,57 @@
+calls:
+  - 
+    user: 10
+    from: 0
+    to: 10000000
+    resp:
+      process:
+        memory_used: 150000
+  - 
+    user: 10
+    from: 0
+    to: 30000000
+    resp:
+      process:
+        memory_used: 300000
+  - 
+    user: 3
+    from: 0
+    to: 50000000
+    resp:
+      process:
+        memory_used: 225000
+  - 
+    user: 10
+    from: 900000000
+    to: 1200000000
+    resp:
+      process:
+        memory_used: 500000
+  - 
+    user: 10
+    from: 800000000
+    to: 1200000000
+    resp:
+      process:
+        memory_used: 520000
+  - 
+    user: 3
+    from: 800000000
+    to: 1300000000
+    resp:
+      process:
+        memory_used: 540000
+
+report:
+  0:
+    n: 3
+    average_memory: 225000
+    average_time: 30
+    min_time: 10
+    max_time: 50
+  1:
+    n: 3
+    average_memory: 520000
+    average_time: 400
+    min_time: 300
+    max_time: 500
