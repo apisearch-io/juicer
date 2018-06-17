@@ -22,6 +22,7 @@ What is this script actually doing?
     - The number of requests finished in this second
     - The average memory used by the server
 
+``` bash
 [ 0ms] [}-------------------------------------------------] [  0 u] [mem:       0]  
 [ 4ms] [={==---------------}------------------------------] [ 44 u] [mem:15384672]  
 [ 3ms] [={=---------------}-------------------------------] [ 72 u] [mem:15384672]  
@@ -52,6 +53,7 @@ What is this script actually doing?
 [25ms] [=================={======-------------------}-----] [555 u] [mem:15420032]  
 [ 4ms] [={==----------------------------------}-----------] [505 u] [mem:15400664]  
 [ 2ms] [={----------------}-------------------------------] [331 u] [mem:15384672]  
+```
 
 Use your command line to execute the script properly. No Golang needed to execute it.
 
