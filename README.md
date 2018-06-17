@@ -2,7 +2,7 @@
 
 This library is part of the Apisearch project.
 
-[![Build Status](https://travis-ci.org/apisearch-io/search-server.svg?branch=master)](https://travis-ci.org/apisearch-io/search-server)
+[![Build Status](https://travis-ci.org/apisearch-io/juicer.svg?branch=master)](https://travis-ci.org/apisearch-io/juicer)
 [![Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/apisearch_io/general)
 
 This is the official Apisearch Killer. We should be able to write the
