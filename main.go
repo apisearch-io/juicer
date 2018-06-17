@@ -84,7 +84,7 @@ func visitUrl(c chan TestCall, urls []string, user User) {
 
 func generateTestCallByUrlAndUser(url string, user User) TestCall {
     from := time.Now()
-    resp, _ := http.Get("http://0.0.0.0:9999" + url)
+    resp, _ := http.Get("http://0.0.0.0:8100" + url)
     body, _ := ioutil.ReadAll(resp.Body)
     to := time.Now()
     defer resp.Body.Close()
