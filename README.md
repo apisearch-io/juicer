@@ -22,6 +22,8 @@ What is this script actually doing?
     - The number of requests finished in this second
     - The average memory used by the server
 
+This would be an example of what this script would return
+
 ``` bash
 [ 0ms] [}-------------------------------------------------] [  0 u] [mem:       0]  
 [ 4ms] [={==---------------}------------------------------] [ 44 u] [mem:15384672]  
