@@ -20,8 +20,8 @@ func main() {
     urlsFile, _ := ioutil.ReadFile("urls.yml")
     urls := []string{}
     yaml.Unmarshal(urlsFile, &urls)
-    maxUsers := 70
-    seconds := 30
+    maxUsers := 40
+    seconds := 1800
     inCresciendoSeconds := int(seconds*5/7)
     inDecresciendoSeconds := int(seconds/7)
 
