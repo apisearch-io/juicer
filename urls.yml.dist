@@ -1,0 +1,2 @@
+- '/health?token=...'
+- '/v1?app_id=...&index=...&token=...&query={"q": "hello"}'
